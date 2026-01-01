@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-01T19:03:31 IST" name="Surefire suite" finished-at="2026-01-01T19:03:50 IST" duration-ms="19867">
+    <groups>
+    </groups>
+    <test started-at="2026-01-01T19:03:31 IST" name="Surefire test" finished-at="2026-01-01T19:03:50 IST" duration-ms="19867">
+      <class name="tests.JsonValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:31 IST" name="setup" finished-at="2026-01-01T19:03:32 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="find_specific_user()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:32 IST" name="find_specific_user" finished-at="2026-01-01T19:03:39 IST" duration-ms="7767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- find_specific_user -->
+        <test-method signature="validate_all_conditions()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:39 IST" name="validate_all_conditions" finished-at="2026-01-01T19:03:40 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_all_conditions -->
+        <test-method signature="validate_any_of_conditions()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:40 IST" name="validate_any_of_conditions" finished-at="2026-01-01T19:03:40 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_any_of_conditions -->
+        <test-method signature="validate_array_size()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:40 IST" name="validate_array_size" finished-at="2026-01-01T19:03:41 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_array_size -->
+        <test-method signature="validate_basic_fields()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:41 IST" name="validate_basic_fields" finished-at="2026-01-01T19:03:48 IST" duration-ms="6431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_basic_fields -->
+        <test-method signature="validate_nested_json()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:48 IST" name="validate_nested_json" finished-at="2026-01-01T19:03:49 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_nested_json -->
+        <test-method signature="validate_product_prices()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:49 IST" name="validate_product_prices" finished-at="2026-01-01T19:03:50 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_product_prices -->
+        <test-method signature="validate_unsorted_list()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:50 IST" name="validate_unsorted_list" finished-at="2026-01-01T19:03:50 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_unsorted_list -->
+        <test-method signature="validate_users_age_above_30()[pri:0, instance:tests.JsonValidationTest@4fe767f3]" started-at="2026-01-01T19:03:50 IST" name="validate_users_age_above_30" finished-at="2026-01-01T19:03:50 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_users_age_above_30 -->
+      </class> <!-- tests.JsonValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
