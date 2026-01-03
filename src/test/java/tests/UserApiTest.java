@@ -21,13 +21,10 @@ public class UserApiTest extends BaseConfig {
     // 1️ POST – JSON STRING
     @Test
     public void createUserWithString() {
-        String body = """
-            {
-              "firstName": "Amit",
-              "email": "amit@gmail.com"
-            }
-        """;
-        
+        String body =  "{\n" +
+                "  \"firstName\": \"Amit\",\n" +
+                "  \"email\": \"amit@gmail.com\"\n" +
+                "}";
 
         Response response = RequestUtil.post(body, Endpoints.USERS + "/add");
                
