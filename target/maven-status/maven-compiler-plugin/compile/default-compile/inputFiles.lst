@@ -1,0 +1,8 @@
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\config\BaseConfig.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\constants\Endpoints.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\enums\Designation.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\exceptions\ApiException.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\exceptions\InvalidDataException.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\pojo\request\UserRequest.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\pojo\response\UserResponse.java
+F:\API\RestAssured_04-20251227T062454Z-3-001\RestAssured_04\src\main\java\utils\RequestUtil.java

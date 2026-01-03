@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-24T09:36:26 IST" name="Default suite" finished-at="2025-12-24T09:36:34 IST" duration-ms="8416">
+    <groups>
+    </groups>
+    <test started-at="2025-12-24T09:36:26 IST" name="Default test" finished-at="2025-12-24T09:36:34 IST" duration-ms="8416">
+      <class name="tests.UserApiTest">
+        <test-method signature="createUserWithMap()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:26 IST" name="createUserWithMap" finished-at="2025-12-24T09:36:29 IST" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithMap -->
+        <test-method signature="createUserWithPojo()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:29 IST" name="createUserWithPojo" finished-at="2025-12-24T09:36:30 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithPojo -->
+        <test-method signature="createUserWithString()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:30 IST" name="createUserWithString" finished-at="2025-12-24T09:36:30 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithString -->
+        <test-method signature="deleteUser()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:30 IST" name="deleteUser" finished-at="2025-12-24T09:36:31 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="idempotencyCheck()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:31 IST" name="idempotencyCheck" finished-at="2025-12-24T09:36:32 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idempotencyCheck -->
+        <test-method signature="invalidDataTest()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:32 IST" name="invalidDataTest" finished-at="2025-12-24T09:36:32 IST" duration-ms="0" status="PASS">
+          <exception class="exceptions.InvalidDataException">
+            <message>
+              <![CDATA[Invalid mobile number]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[exceptions.InvalidDataException: Invalid mobile number
+at tests.UserApiTest.invalidDataTest(UserApiTest.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- exceptions.InvalidDataException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataTest -->
+        <test-method signature="updateUserPatch()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:32 IST" name="updateUserPatch" finished-at="2025-12-24T09:36:33 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserPatch -->
+        <test-method signature="updateUserPut()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:33 IST" name="updateUserPut" finished-at="2025-12-24T09:36:33 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserPut -->
+        <test-method signature="validateStatusCodes()[pri:0, instance:tests.UserApiTest@4bef0fe3]" started-at="2025-12-24T09:36:33 IST" name="validateStatusCodes" finished-at="2025-12-24T09:36:34 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodes -->
+      </class> <!-- tests.UserApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
